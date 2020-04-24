@@ -4,15 +4,14 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>3D Folded Layout | Demo 1 | Codrops</title>
+    <title>Stand 4 Sudan | Homepage</title>
     <meta name="description" content="An experiemntal 3D layout technique for HTML elements." />
     <meta name="keywords" content="3d, layout, html, css, bending, javascript, demo" />
-    <meta name="author" content="Codrops" />
+    <meta name="author" content="Mai Elamin" />
     <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="stylesheet" href="https://use.typekit.net/ofv7fvi.css">
+    <link rel="stylesheet" href="https://use.typekit.net/yxd7izj.css">
     <link rel="stylesheet" type="text/css" href="css/base.css" />
-    <link rel="stylesheet" type="text/css" href="css/typo.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/split.css" />
     <script>
     document.documentElement.className = "js";
     var supportsCssVars = function() {
@@ -37,118 +36,64 @@
     </script>
 </head>
 
-<body class="demo-1 loading">
-    <main>
-        <div class="message">Some message for mobile (if needed).</div>
+<body class="demo-3 loading">
+    <main><img class="body" src="img/bg2.png" alt="Background" style="position: fixed; display: block; margin-left: auto; margin-right: auto; height: 100%; width: 100%;"/>
+        <div class="message">Best viewed on landscape view/ desktop</div> <!--message for mobile devices-->
         <div class="frame">
-            <h1 class="frame__title">3D Folded Layout</h1>
+            <h1 class="frame__title">السلام عليكم</br>Welcome</h1>
             <div class="frame__links">
-                <a href="http://tympanus.net/Tutorials/TextureProjection/">Previous Demo</a>
+                <!-- <a href="http://tympanus.net/Tutorials/TextureProjection/">Previous Demo</a>
                 <a href="https://tympanus.net/codrops/?p=46441">Article</a>
-                <a href="https://github.com/Anemolo/FoldingDOM">GitHub</a>
+                <a href="https://github.com/Anemolo/FoldingDOM">GitHub</a> -->
+                <audio controls>
+                    <source src="song.mp3" type="audio/mp3" style="overflow: none;">
+                  </audio>
             </div>
-            <div class="frame__demos">
-                <a href="index.html" class="frame__demo frame__demo--current">demo 1</a>
-                <a href="index2.html" class="frame__demo">demo 2</a><a href="index3.html" class="frame__demo">demo 3</a><a href="index4.html" class="frame__demo">demo 4</a><a href="index5.html" class="frame__demo">demo 5</a>
-            </div>
+            <!--<div class="frame__demos">
+                <a href="index.html" class="frame__demo">demo 1</a>
+                <a href="index2.html" class="frame__demo">demo 2</a><a href="index3.html" class="frame__demo frame__demo--current">demo 3</a><a href="index4.html" class="frame__demo">demo 4</a>
+                <a href="index5.html" class="frame__demo">demo 5</a>
+            </div>-->
         </div>
         <div class="content">
-            <div class="fold-content" id="base-content">
+            <div class="fold-content" id="base-content" >
                 <!-- CONTENT INSIDE HERE -->
-                <div class="content__line">
-                    <span class="type type--1">Bocelli</span>
-                    <span class="type type--2">Barcelona</span>
-                    <span class="type type--1">Bocelli</span>
-                    <span class="type type--2">Barcelona</span>
-                </div>
-                <div class="content__line">
-                    <span class="type type--3">Sandeca</span>
-                    <span class="type type--4">Budapest</span>
-                    <span class="type type--3">Sandeca</span>
-                    <span class="type type--4">Budapest</span>
-                </div>
-                <div class="content__line">
-                    <span class="type type--6">Franklin</span>
-                    <span class="type type--1">Berlin</span>
-                    <span class="type type--6">Franklin</span>
-                </div>
-                <div class="content__line">
-                    <span class="type type--5">Tokyo</span>
-                    <span class="type type--2">Hoshen</span>
-                    <span class="type type--5">Tokyo</span>
-                </div>
-                <div class="content__line">
-                    <span class="type type--1">Andrew</span>
-                    <span class="type type--7">New York</span>
-                    <span class="type type--1">Andrew</span>
-                    <span class="type type--7">New York</span>
-                </div>
-                <div class="content__line">
-                    <span class="type type--3">Sandeca</span>
-                    <span class="type type--4">Budapest</span>
-                    <span class="type type--3">Sandeca</span>
-                    <span class="type type--4">Budapest</span>
-                    <span class="type type--3">Sandeca</span>
-                    <span class="type type--4">Budapest</span>
-                </div>
-                <div class="content__line">
-                    <span class="type type--6">Franklin</span>
-                    <span class="type type--1">Berlin</span>
-                    <span class="type type--6">Franklin</span>
-                    <span class="type type--1">Berlin</span>
-                    <span class="type type--6">Franklin</span>
-                    <span class="type type--1">Berlin</span>
-                </div>
-                <div class="content__line">
-                    <span class="type type--5">Tokyo</span>
-                    <span class="type type--2">Hoshen</span>
-                    <span class="type type--5">Tokyo</span>
-                    <span class="type type--2">Hoshen</span>
-                    <span class="type type--5">Tokyo</span>
-                    <span class="type type--2">Hoshen</span>
-                </div>
-                <div class="content__line">
-                    <span class="type type--1">Bocelli</span>
-                    <span class="type type--2">Barcelona</span>
-                    <span class="type type--1">Bocelli</span>
-                    <span class="type type--2">Barcelona</span>
-                </div>
-                <div class="content__line">
-                    <span class="type type--3">Sandeca</span>
-                    <span class="type type--4">Budapest</span>
-                    <span class="type type--3">Sandeca</span>
-                    <span class="type type--4">Budapest</span>
-                    <span class="type type--3">Sandeca</span>
-                    <span class="type type--4">Budapest</span>
-                </div>
-                <div class="content__line">
-                    <span class="type type--6">Franklin</span>
-                    <span class="type type--1">Berlin</span>
-                    <span class="type type--6">Franklin</span>
-                    <span class="type type--1">Berlin</span>
-                    <span class="type type--6">Franklin</span>
-                    <span class="type type--1">Berlin</span>
-                </div>
-                <div class="content__line">
-                    <span class="type type--5">Tokyo</span>
-                    <span class="type type--2">Hoshen</span>
-                    <span class="type type--5">Tokyo</span>
-                    <span class="type type--2">Hoshen</span>
-                    <span class="type type--5">Tokyo</span>
-                    <span class="type type--2">Hoshen</span>
-                </div>
+                <p class="content__type">
+                    <span class="content__type-special">Stand 4 Sudan</span>The Anthem of Sudan’s Revolution:<br/>"Surrender"<br/><br/>The march is advancing on you عليك الزحف متقدم<br/><br/>You have people that are assembled and determined<br/> وليك الشعب متحزم ومتلملم </p>
+                <img class="content__img" src="img/five.jpg" alt="Some image" />
+                <p class="content__type">
+                    Saying “hand them over”<br/> يقول سلم<br/><br/>Hand them over, but you won’t get peace from us<br/> سلم ومابتسلم<br/><br/>When have you ever had mercy to be deserving of mercy?<br/>رحمت متين عشان ترحم؟ </p>
+                <img class="content__img" src="img/two.jpg" alt="Some image" />
+                <p class="content__type">
+                    Hand over the keys to the country سلم مفاتيح البلد<br/><br/>Hand over our abayas and veils سلم عباياتنا وملافحنا<br/><br/>Our Korans and our prayer beads مصاحفنا ومسابحنا<br/><br/>Our mosques and our churches جوامعنا وكنايسنا<br/><br/>Hand over the keys to the country سلم مفاتيح البلد</p>
+                <img class="content__img" src="img/three.jpg" alt="Some image" />
+                <p class="content__type">
+                    Our forefathers’ heritage, hand it over<br/> تراث أجدادنا سلمنا<br/><br/>Our children’s minds, hand them over<br/> عقول أولادنا سلمنا</p>
+                    <img class="content__img" src="img/nine.jpeg" alt="Some image" />
+                    <p class="content__type">Our guns that shoot us<br/> بنادقنا اللي بتضربنا<br/><br/>And that are aimed at our chests الموجهة لصدورنا<br/><br/>Which are also our own<br/> وبرضو حقتنا</p>
+                        <img class="content__img" src="img/one.jpg" alt="Some image" />
+                        <p class="content__type">
+                        Hand them over<br/> سلمنا<br/><br/>Hand over the keys to the country سلم مفاتيح البلد<br/><br/>Hand over the time that has been lost<br/> سلمنا الزمان الضاع<br/><br/>Nights of exile and pain<br/> وليل الغربة والأوجاع</p>                
+                    <img class="content__img" src="img/seven.jpg" alt="Some image" />
+                    <p class="content__type">Sorrows we have lived<br/> أحزانا اللي عشناها<br/><br/>With the noble nation that is hungry<br/> مع الوطن العزيز الجاع</p>
+                    <img class="content__img" src="img/four.jpg" alt="Some image" />
+                    <p class="content__type">Hand over the keys to the country سلم مفاتيح البلد<br/><br/>Where will you flee from the great pain and hunger?<br/> حتهرب وين من الألم الكبير والجوع</p>
+                    <img class="content__img" src="img/women.jpg" alt="Some image" />
+                    <p class="content__type">From your paid education?<br/> من تعليمك المدفوع<br/><br/>From people that have given you their blood, sweat and tears, only to get weakness and hunger from you in return?<br/> ومن شعب سقاك لبنه سقيته من الهوان والجوع<br/><br/>You who serve nothing but poison يا ساقي سمك المنبوع<br/><br/>Hand over the keys to the country سلم مفاتيح البلد<br/><br/></p>  
+                <img class="content__img" src="img/six.jpg" alt="Some image" />
+                <p class="content__type">                           
+                 Where will you flee from the tortures of our memory?<br/> حتهرب وين من الذكرى وعذاباتها<br/><br/>From mother’s milk and reckoning with the Lord?<br/> ومن لبن الأمومة ومن حساب الرب<br/><br/>Where will you flee when your hands are stained with blood? حتهرب وين وانت ايدينك الإتنين ملوثة دم<br/><br/>Blood’s own eloquence cries out and says “hand them over” فصيح الدم ينضم وبتكلم يقول سلم</p>
+                 <img class="content__img" src="img/eight.jpg" alt="Some image" />
+                 <p class="content__type">  
+                 Hand over the keys to the country سلم مفاتيح البلد
+                </br></br>Sudanese revolution<br/>(Dec 22, 2018 – Aug 17, 2019)</p>
             </div>
-            <div class="screen" id="fold-effect">
-                <div class="wrapper-3d">
-                    <div class="fold fold-before"></div>
-                    <div class="fold fold-center"></div>
-                    <div class="fold fold-after"></div>
-                </div>
-            </div>
-            <button class="btn-debug" id="btn-debug" style="visibility:hidden">See Planes</button>
+            <div class="screen" id="fold-wrapper"></div>
+            <button class="btn-debug" id="btn-debug">See Planes</button>
         </div>
     </main>
-    <script src="./js/default.js"></script>
+    <script src="./js/imagesloaded.pkgd.min.js"></script>
+    <script src="./js/split.js"></script>
 </body>
 
 </html>
