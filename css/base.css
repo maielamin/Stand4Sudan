@@ -156,7 +156,7 @@ a:focus {
 
 .frame {
 	padding: 3rem 5vw;
-	text-align: center;
+	text-align:  center;
 	position: relative;
 	z-index: 1000;
 }
@@ -198,13 +198,7 @@ a:focus {
 	top: 100px;
 }
 
-@media screen and (max-width: 53em) and (orientation: portrait){
-	.message {
-		position: relative;
-		z-index: 1;
-		display: inline;
-	}
-
+@media screen and (min-width: 53em) {
 	.frame {
 		position: fixed;
 		text-align: left;
@@ -262,6 +256,14 @@ a:focus {
 		height: 100vh;
 		justify-content: center;
 		z-index: 0;
+	}
+}
+
+@media screen and (max-width: 53em) and (orientation: portrait){
+	.message {
+		position: relative;
+		z-index: 1;
+		display: block;
 	}
 
 }
