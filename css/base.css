@@ -198,7 +198,7 @@ a:focus {
 	top: 100px;
 }
 
-@media screen and (max-width: 53em) and (orientation: potrait){
+@media screen and (max-width: 53em) and (orientation: portrait){
 	.message {
 		position: relative;
 		z-index: 1;
