@@ -200,7 +200,7 @@ a:focus {
 
 @media screen and (min-width: 53em) {
 	.message {
-		display: none;
+		display: contents;
 	}
 
 	.frame {
