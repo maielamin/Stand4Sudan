@@ -198,8 +198,10 @@ a:focus {
 	top: 100px;
 }
 
-@media screen and (min-width: 53em) {
+@media screen and (max-width: 53em) and (orientation: potrait){
 	.message {
+		position: relative;
+		z-index: 1;
 		display: inline;
 	}
 
