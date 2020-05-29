@@ -197,7 +197,6 @@ a:focus {
 	top: 100px;
 }
 
-@media screen and (min-width: 53em) {
 	.frame {
 		position: fixed;
 		text-align: left;
